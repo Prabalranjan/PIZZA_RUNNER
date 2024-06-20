@@ -43,7 +43,7 @@ This table contains all of the topping_name values with their corresponding topp
 8. How many pizzas were delivered that had both exclusions and extras?  
 9. What was the total volume of pizzas ordered for each hour of the day?  
 10. What was the volume of orders for each day of the week?  
-(all the codes of this section are inside the Pizza Metrics.zip folder)  
+(all the codes of this section are inside the Pizza Metrics folder)  
 
 ## B. Runner and Customer Experience
 1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)  
@@ -53,37 +53,37 @@ This table contains all of the topping_name values with their corresponding topp
 5. What was the difference between the longest and shortest delivery times for all orders?  
 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?  
 7. What is the successful delivery percentage for each runner?  
-(all the codes of this section are inside the Runner and Customer Experience.zip folder)
+(all the codes of this section are inside the Runner and Customer Experience folder)
 
 ## C. Ingredient Optimisation
 1. What are the standard ingredients for each pizza?  
 2. What was the most commonly added extra?  
 3. What was the most common exclusion?  
 4. Generate an order item for each record in the customers_orders table in the format of one of the following:  
-  Meat Lovers  
-  Meat Lovers - Exclude Beef  
-  Meat Lovers - Extra Bacon  
-  Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers  
-(all the codes of this section are inside the Ingredient Optimisation.zip folder)
+  - Meat Lovers  
+  - Meat Lovers - Exclude Beef  
+  - Meat Lovers - Extra Bacon  
+  - Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers  
+(all the codes of this section are inside the Ingredient Optimisation folder)
 
 ## D. Pricing and Ratings
 1. If a Meat Lovers pizza costs $12 and Vegetarian costs $10 and there were no charges for changes - how much money has Pizza Runner made so far if there are no delivery fees?  
 2. What if there was an additional $1 charge for any pizza extras?  
-  Add cheese is $1 extra  
+  - Add cheese is $1 extra  
 3. The Pizza Runner team now wants to add an additional ratings system that allows customers to rate their runner, how would you design an additional table for this new dataset - generate a schema for this new table and insert your own data for ratings for each successful customer order between 1 to 5.  
 4. Using your newly generated table - can you join all of the information together to form a table which has the following information for successful deliveries?  
-  customer_id  
-  order_id  
-  runner_id  
-  rating  
-  order_time  
-  pickup_time  
-  Time between order and pickup  
-  Delivery duration  
-  Average speed  
-  Total number of pizzas  
-5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?  
-(all the codes of this section are inside the Pricing and Ratings.zip folder)
+  - customer_id  
+  - order_id  
+  - runner_id  
+  - rating  
+  - order_time  
+  - pickup_time  
+  - Time between order and pickup  
+  - Delivery duration  
+  - Average speed  
+  - Total number of pizzas  
+5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometer traveled - how much money does Pizza Runner have left over after these deliveries?  
+(all the codes of this section are inside the Pricing and Ratings folder)
 
 
 
