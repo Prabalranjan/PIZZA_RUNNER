@@ -5,7 +5,10 @@ project link - https://8weeksqlchallenge.com/case-study-2/
 <img width="539" alt="image" src="https://github.com/Prabalranjan/PIZZA_RUNNER/assets/71269601/da93a8cb-3055-42ed-bfea-a956d68aed17">
 
 ## Table 1: runners
-The runners table shows the registration_date for each new runner
+The runners table shows the registration_date for each new runner  
+  
+<img width="217" alt="image" src="https://github.com/Prabalranjan/PIZZA_RUNNER/assets/71269601/a43a09a1-8234-4d9e-9941-6f33f1ee360b">
+
 
 ## Table 2: customer_orders
 Customer pizza orders are captured in the customer_orders table with 1 row for each individual pizza that is part of the order.
@@ -14,23 +17,36 @@ The pizza_id relates to the type of pizza which was ordered whilst the exclusion
 
 Note that customers can order multiple pizzas in a single order with varying exclusions and extras values even if the pizza is the same type!
 
-The exclusions and extras columns will need to be cleaned up before using them in your queries.
+The exclusions and extras columns will need to be cleaned up before using them in your queries.  
+
+<img width="430" alt="image" src="https://github.com/Prabalranjan/PIZZA_RUNNER/assets/71269601/b76c3f19-56bf-4db1-be40-8e19879dc7a4">
+
 
 ## Table 3: runner_orders
 After each orders are received through the system - they are assigned to a runner - however not all orders are fully completed and can be cancelled by the restaurant or the customer.
 
 The pickup_time is the timestamp at which the runner arrives at the Pizza Runner headquarters to pick up the freshly cooked pizzas. The distance and duration fields are related to how far and long the runner had to travel to deliver the order to the respective customer.
 
-There are some known data issues with this table so be careful when using this in your queries - make sure to check the data types for each column in the schema SQL!
+There are some known data issues with this table so be careful when using this in your queries - make sure to check the data types for each column in the schema SQL!  
+
+<img width="439" alt="image" src="https://github.com/Prabalranjan/PIZZA_RUNNER/assets/71269601/ddf19c20-c4bc-4680-8166-4ce9d701803f">
+
 
 ## Table 4: pizza_names
-At the moment - Pizza Runner only has 2 pizzas available the Meat Lovers or Vegetarian!
+At the moment - Pizza Runner only has 2 pizzas available the Meat Lovers or Vegetarian!  
+
+<img width="173" alt="image" src="https://github.com/Prabalranjan/PIZZA_RUNNER/assets/71269601/29fd3809-835c-419f-9eb9-57eb1e8d3c00">
+
 
 ## Table 5: pizza_recipes
-Each pizza_id has a standard set of toppings which are used as part of the pizza recipe.
+Each pizza_id has a standard set of toppings which are used as part of the pizza recipe.  
+  
+<img width="210" alt="image" src="https://github.com/Prabalranjan/PIZZA_RUNNER/assets/71269601/f9514955-d9fa-4fbe-8a0e-1e7c93f05720">
 
 ## Table 6: pizza_toppings
-This table contains all of the topping_name values with their corresponding topping_id value
+This table contains all of the topping_name values with their corresponding topping_id value  
+  
+<img width="209" alt="image" src="https://github.com/Prabalranjan/PIZZA_RUNNER/assets/71269601/68a04f58-9935-4167-83b7-f6a1c59d4f18">
 
 ## A. Pizza Metrics
 1. How many pizzas were ordered?  
